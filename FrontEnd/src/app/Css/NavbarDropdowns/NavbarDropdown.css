@@ -1,0 +1,74 @@
+.DropDown a{
+    padding: 0;
+    font-size: 14px;
+    padding:0px 5px 5px 5px;
+}
+.DropDown div:nth-child(1) ul{
+    border-right: 1px solid rgb(231, 231, 231);
+}
+.DropDown .heading{
+    text-decoration: underline;
+    text-decoration-thickness: 0.1px;
+}
+.DropDown .images{
+    width: 65%;
+    height: 300px;
+    display: flex;
+}
+.DropDown .images>div {
+    width:60%;
+    height: 100%;
+    background-size: cover;
+    background-position: 0px -30px;
+}
+.ThisJustIn-navdropdown .image1{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Tile_desktop_90187318-a3f1-492f-9377-b18381a175a6_600x.jpg?v=1724869721');
+}
+.ThisJustIn-navdropdown .image2{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Tile_desktop-1_3ac58a1d-4386-40be-a9bf-9db422c8941d_600x.jpg?v=1724869727');
+}
+.Women-navdropdown .images , .Men-navdropdown .images {
+    width: 60%;
+}
+.Women-navdropdown .images>div , .Men-navdropdown .images>div{
+    width: 60%;
+}
+
+
+.Women-navdropdown .image1{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Tile_desktop_ddf513df-85af-465e-a7ec-17195e052e79_600x.jpg?v=1724076725');
+}
+.Women-navdropdown .image2{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Tile_desktop-1_fcdb4fb5-e92a-4f33-bdfc-4d288cf6bc36_600x.jpg?v=1724076732');
+}
+
+.Men-navdropdown .image1{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Tile_desktop-3_7a400c1c-e4a6-48ac-8c7a-8f4ef9bffe66_600x.jpg?v=1724076771');
+}
+.Men-navdropdown .image2{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Tile_desktop-2_b2baed6b-256a-4bca-a89b-fdfd697f701c_600x.jpg?v=1724076751');
+}
+.OurStory-navdropdown .images{
+    width: 100%;
+}
+.OurStory-navdropdown .images>div {
+    width: 15%;
+}
+.OurStory-navdropdown .image1{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Who_we_are_-_NAV_600x.jpg?v=1712763767');
+}
+.OurStory-navdropdown .image2{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Tile_desktop_23_600x.jpg?v=1712763780');
+}
+.OurStory-navdropdown .image3{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Design_Philosophy_-_NAV_600x.jpg?v=1712763785');
+}
+.OurStory-navdropdown .image4{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Fabric_Innovation_-_NAV_600x.jpg?v=1712763794');
+}
+.OurStory-navdropdown .image5{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Circular_Process_-_NAV_600x.jpg?v=1712763798');
+}
+.OurStory-navdropdown .image6{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/Partners_Factories_-_NAV_600x.jpg?v=1712763804');
+}

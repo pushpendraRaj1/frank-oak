@@ -1,0 +1,17 @@
+.Main{
+    width:100%;
+    height:600px;
+    background-size: cover;
+    background-position: 0px -30px;
+    position: relative;
+    z-index: 9;
+}
+.Heading{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.Heading h1{
+font-size: 70px;
+}

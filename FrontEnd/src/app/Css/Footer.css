@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+    .Footer-Facilities * {
+        font-size: 10px !important;
+    }
+    .icon *{
+        width: 30px;
+    }
+    .Footer{
+        padding:10px !important;
+    }
+}
+
+

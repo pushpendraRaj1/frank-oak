@@ -1,0 +1,197 @@
+.Navbar {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    background-color: white;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+li {
+    text-underline-offset: 0.3em;
+}
+
+.Menu>ul:nth-child(1)>li:not(.logo):hover {
+    background-color: rgb(248, 248, 248);
+}
+
+.Menu>ul a:not(.logo):hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1px;
+}
+
+.Menu>ul,
+.controls>ul {
+    list-style: none;
+    display: flex;
+}
+
+.controls>ul>li {
+    margin-right: 15px;
+
+}
+
+.Menu li:not(.logo) {
+    position: relative;
+}
+
+.Menu>ul>li {
+    font-weight: 500;
+    background-color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.Menu>ul li:nth-child(1) {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.this-just-in,
+.Women,
+.Men,
+.OurStory {
+    position: absolute;
+    top: 100%;
+    background-color: rgb(248, 248, 248);
+    width: 100vw;
+    margin-left: calc(100vw - 118vw);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in-out;
+    z-index: 99;
+}
+
+
+.Menu li:nth-child(2):hover .this-just-in {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Menu li:nth-child(3):hover .Women {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Menu li:nth-child(4):hover .Men {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Menu li:nth-child(5):hover .OurStory {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Navbar .mobile-view {
+    display: none !important;
+}
+
+
+
+.offcanvas-body {
+    padding: 0;
+}
+
+.OffCanvasBody {
+    background-color: #EBECEE;
+}
+
+.OffCB-Navitems {
+    width: 25%;
+}
+
+.OffCanvasBody-Body {
+    height: 91.5%;
+}
+
+.Cart-item {
+
+    font-size: 14px;
+}
+
+.OffCanvas-Cart-Cards::-webkit-scrollbar {
+    display: none;
+}
+
+.offcanvas-end a {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-close {
+    margin: 0px !important;
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+.LoginModal * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.LoginModal input {
+    width: 90%;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.LoginModal .Offers * {
+    font-size: 13px;
+}
+
+.controls input[type="search"] {
+    width: 30vw;
+    transition: all 500ms ease-in-out;
+    border:2px solid rgb(183, 183, 183);
+}
+
+@media only screen and (max-width: 850px) {
+    .Navbar .web-view {
+        display: none !important;
+    }
+
+    .Navbar .mobile-view {
+        display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .controls input[type="search"] {
+        width: 20vw;
+        /* background-color: green;
+        border:1px solid red; */
+    }
+}
+
+/* .form-control:focus {
+    box-shadow: none;
+}  */
+
+.search-result-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 90vh;
+    overflow: scroll;
+    position: absolute;
+    top:100%;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(255, 255, 255,0.4);
+    backdrop-filter: blur(4px);
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+    transition: all 0.3s;
+}
+.search-result-box::-webkit-scrollbar{
+    display: none;
+}

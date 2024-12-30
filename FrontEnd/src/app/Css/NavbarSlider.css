@@ -1,0 +1,15 @@
+.navslider{
+    font-size: 14px;
+}
+
+.navslider .slick-prev:before{
+    content:'<' !important;
+}
+.navslider .slick-next:before{
+    content:'>' !important;
+}
+
+.navslider .slick-prev:before,.navslider .slick-next:before{
+    font-size: 20px !important;
+    line-height: 0 !important;
+}

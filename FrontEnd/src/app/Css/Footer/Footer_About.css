@@ -1,0 +1,57 @@
+.Accordion .accordion {
+    --bs-accordion-bg: transparent;
+    --bs-accordion-color: white;
+    --bs-border-radius: 0;
+    --bs-accordion-btn-focus-box-shadow:none;
+    --bs-accordion-btn-icon:none;
+    --bs-accordion-btn-active-icon:none;
+}
+.Accordion .accordion-button::after{
+    content: '–';
+    font-size: 25px;
+    color: white;
+}
+.Accordion .accordion-button:not(.collapsed)::after{
+    transform:none;
+}
+.Accordion .accordion-button {
+    color: white;
+    background-color: transparent;
+}
+
+.Accordion .accordion-item {
+    border-right: none;
+    border-left: none;
+}
+
+
+.Accordion .collapsed::after {
+    color: white;
+    content: '+';
+    font-size: 25px;
+}
+.Accordion .collapsing {
+    transition: height .1s;
+  }
+.Accordion{
+    display: none;
+}
+.Social_media-sm{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .About_us {
+        display: none !important;
+    }
+    .Stay-in-touch{
+        width: 100% !important;
+    }
+    .Accordion{
+        display: block;
+    }
+    .Social_media-sm{
+        display: block;
+    }
+}

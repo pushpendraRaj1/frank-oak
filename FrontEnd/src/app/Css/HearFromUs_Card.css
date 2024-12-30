@@ -1,0 +1,36 @@
+.HearFromUs_Card{
+    height:450px;
+    width:40vw;
+    background-color:white;
+}
+.quote{
+    border:1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 110%;
+}
+.quote-author{
+    color:rgba(87, 87, 87, 0.7);
+}
+.HearFromUs_Card a{
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+.HearFromUs_Card .Image{
+    padding:0;
+    width: 110%;
+}
+@media only screen and (max-width: 800px) {
+    .HearFromUs_Card {
+      width: 90vw;
+      margin:auto;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .HearFromUs_Card {
+      width: 90vw;
+      margin:auto;
+    }
+  }

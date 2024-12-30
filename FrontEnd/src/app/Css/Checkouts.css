@@ -1,0 +1,85 @@
+.checkout div {
+    /* border: 1px solid red; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.checkout {
+    /* border: 1px solid red; */
+    width: 80vw;
+}
+
+
+.PaymentDetails {   
+    width: 45vw;
+    height: 95vh;
+    overflow: scroll;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.PaymentDetails::-webkit-scrollbar{
+    display: none;
+}
+
+.PaymentDetails .pay-with>div {
+    border-radius: 10px;
+}
+
+.pay-with .googlepay {
+    background-color: rgb(37 87 214);
+}
+
+.pay-with .mastercard {
+border:1px solid rgb(197, 197, 197);
+}
+
+.pay-with .paypal {
+    background-color: rgb(247 190 56);
+}
+
+.CartProducts {
+    width: 50vw;
+    height: 20vh;
+}
+
+.CartProducts{
+    background-color: rgba(225, 224, 224,0.3);
+    height: 95vh;
+    /* overflow: scroll; */
+}
+
+.CartProducts .products{
+    max-height: 70vh;
+    width: 75%;
+    overflow: scroll;
+}
+.CartProducts .products::-webkit-scrollbar{
+    display: none;
+}
+
+.CartProducts .productQuantity{
+    background-color: rgb(208, 207, 207);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    top:-10px;
+    right:-10px;
+}
+.CartProducts .productImage{
+    width: 20%; 
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 767px) {
+    .PaymentDetails{
+        width: 100vw;
+        height: 100%;
+    }
+    .CartProducts{
+        width: 100vw;
+    }
+}

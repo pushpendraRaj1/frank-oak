@@ -1,0 +1,51 @@
+.IBL_text>div{
+    margin:3vw 0;
+    /* width: 40vw; */
+}
+.Inspire-Better-Living{
+    overflow: hidden;
+}
+.IBL_para{
+    color:rgb(106, 106, 106);
+}
+.IBL_images{
+    width:130vw;
+    height:45vw;
+}
+.IBL_img{
+    width:48%;
+    height: 48%;
+    margin-bottom:10px;
+    display: flex;
+    align-items: end;
+    background-size: cover;
+}
+.IBL_img>div{
+    margin:2vw;
+    font-size:25px;
+    color:white;
+}
+.IBL_img1,.IBL_img3{
+    background-position: 50% 40%;
+}
+
+.Inspire-Better-Living a{
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+@media only screen and (max-width: 600px) {
+    .IBL_img {
+      width: 90vw;
+      margin:1vw 0;
+    }
+    .IBL_img>div{
+        font-size: 20px;
+    }
+    .IBL_text{
+        margin:0px !important;
+        padding:0 !important;
+    }
+    .Inspire-Better-Living{
+        padding: 0 !important;
+    }
+  }

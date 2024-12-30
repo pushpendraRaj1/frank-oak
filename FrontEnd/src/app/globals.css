@@ -1,0 +1,11 @@
+* {
+    font-family: 'CircularStd', sans-serif;
+}
+
+.collections {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
